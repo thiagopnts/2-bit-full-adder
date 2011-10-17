@@ -28,20 +28,6 @@ SC_MODULE(adder2) {
         o1.A(S5); o1.B(S2); o1.F(Cout);
         o2.A(S6); o2.B(S4); o2.F(S7);
 
-
-/*        x1.A(A2); x1.B(B2); x1.F(S1);
-        n1.A(A2); n1.B(B2); n1.F(S2);
-        x2.A(A1); x2.B(B1); x2.F(S3);
-        n2.A(A1); n2.B(B1); n2.F(S4);
-
-        n3.A(Cin); n3.B(S3); n3.F(S5);
-        n4.A(S6); n4.B(S1); n4.F(S7);
-
-        x4.A(S6); x4.B(S1); x4.F(Sum2);
-        o2.A(S7); o2.B(S2); o2.F(Cout);
-        x3.A(Cin); x3.B(S3); x3.F(Sum1);
-        o1.A(S5); o1.B(S4); o1.F(S6);*/
-
     }
 
 };
