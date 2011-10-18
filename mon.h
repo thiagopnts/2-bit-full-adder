@@ -8,21 +8,17 @@ SC_MODULE(mon) {
 
     void monitor() {
         cout << setw(10) << "Time";
-        cout << setw(3) << "A";
-        cout << setw(4) << "B";
-        cout << setw(5) << "Cin";
-        cout << setw(5) << "Sum";
-        cout << setw(6) << "Cout";
-        cout << setw(7) << "Final" << endl;
+        cout << setw(4) << "A1";
+        cout << setw(4) << "B1";
+        cout << setw(5) << "Cout";
+        cout << setw(3) << "Sum" << endl;
 
         while(true) {
             cout << setw(10) << sc_time_stamp();
             cout << setw(3) << A1.read() << A2.read();
             cout << setw(3) << B1.read() << B2.read();
-            cout << setw(3) << Cin.read();
-            cout << setw(5) << Sum1.read() << Sum2.read();
             cout << setw(5) << Cout.read();
-            cout << setw(5) << Cout.read() << Sum1.read() << Sum2.read() << endl;
+            cout << Sum1.read() << Sum2.read() << endl;
             wait();
         }
     }
